@@ -1,0 +1,94 @@
+/*selector{ property: value;}
+who{ what: how;}*/
+
+/*Default Styling*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 30px;
+  padding: 10 px;
+  text-align: left;
+  font-family: 'Thasadith', sans-serif;
+  background: lightgrey;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+li {
+  list-style: none;
+}
+
+/*Header Styling*/
+
+.header {
+  margin: 30px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Thasadith', sans-serif;
+}
+
+.header h1 {
+  margin: 30px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.header h2 {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+
+/*Menu Options Styling*/
+
+#menu {
+  position:relative;
+  display: block;
+  float: left;
+  padding:0 20px 0 20px;
+  border: 3px solid black;
+  text-align: left;
+}
+
+.menu-id h3 {
+font-family: 'Thasadith', sans-serif;
+font-size: 20px;
+}
+
+.a-menu a {
+
+  font-size: 16px;
+  font-family: 'Thasadith', sans-serif;
+
+}
+
+/*Blog Page Styling*/
+
+.blog {
+  text-align: center;
+  position: relative;
+  display: block;
+  float: left;
+  max-width: 1200px;
+  border: 4px solid black;
+  padding: 0 30px 0 30px;
+  margin-left: 30px;
+}
+
+.blog h2 {
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Thasadith', sans-serif;
+  border-bottom: 1px solid black;
+}
