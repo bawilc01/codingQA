@@ -2,93 +2,68 @@
 who{ what: how;}*/
 
 /*Default Styling*/
-
-* {
-  box-sizing: border-box;
-}
+@import url ('https://fonts.googleapis.com/css?family=Thasadith:400,700');
 
 body {
-  margin: 30px;
-  padding: 10 px;
-  text-align: left;
-  font-family: 'Thasadith', sans-serif;
-  background: lightgrey;
-}
-
-a {
-  text-decoration: none;
-  color: black;
+background: rgb(141, 156, 156);
+font-family: Thasadith, sans-serif;
+line-height: 1.6;
+color: black;
 }
 
 
-li {
-  list-style: none;
-}
-
-/*Header Styling*/
+#wrapper { 
+    width: 70%;
+    margin: 0 auto;
+ }
+ 
 
 .header {
-  margin: 30px;
-  padding: 10px;
-  text-align: center;
-  font-family: 'Thasadith', sans-serif;
+    background: rgb(58, 65, 56);
+    width: 100%;
+    margin: 0;
+    padding: 5px 5px;
 }
 
-.header h1 {
-  margin: 30px;
-  padding: 10px;
-  text-align: center;
-  font-family: 'Thasadith', sans-serif;
-  font-size: 48px;
-  font-weight: bold;
+.header-home {
+    text-decoration: none;
+    color: whitesmoke;
 }
 
-.header h2 {
-  border-bottom: 1px solid black;
-  padding-bottom: 10px;
+.header-home:hover,
+.header-home:visited {
+    text-decoration: none;
+    color: whitesmoke;
 }
 
-
-/*Menu Options Styling*/
-
-#menu {
-  position:relative;
-  display: block;
-  float: left;
-  padding:0 20px 0 20px;
-  border: 3px solid black;
-  text-align: left;
+.footer {
+    background: rgb(58, 65, 56);
+    color: whitesmoke;
+    width: 100%;
+    margin-top: 0;
+    padding: 10px 10px;
 }
 
-.menu-id h3 {
-font-family: 'Thasadith', sans-serif;
-font-size: 20px;
+nav li {
+    margin: 0;
+    padding: 0 5px; 
+    text-align: center;
 }
 
-.a-menu a {
-
-  font-size: 16px;
-  font-family: 'Thasadith', sans-serif;
-
+.dropdown-item {
+    text-decoration: none;
+    color: black;
 }
 
-/*Blog Page Styling*/
+#content a {
+    text-decoration: none;
+    color: rgb(58, 65, 56);
+ }
 
-.blog {
-  text-align: center;
-  position: relative;
-  display: block;
-  float: left;
-  max-width: 1200px;
-  border: 4px solid black;
-  padding: 0 30px 0 30px;
-  margin-left: 30px;
-}
-
-.blog h2 {
-  margin: 20px;
-  padding: 10px;
-  text-align: center;
-  font-family: 'Thasadith', sans-serif;
-  border-bottom: 1px solid black;
+#content a:hover {
+    text-decoration: none;
+    background: rgb(58, 65, 56);
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
 }
