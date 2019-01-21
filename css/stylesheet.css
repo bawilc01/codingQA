@@ -52,6 +52,9 @@ nav li {
 
 .dropdown-item {
     text-decoration: none;
+    margin: 0;
+    padding: 0 5px; 
+    text-align: center;
     color: black;
 }
 
