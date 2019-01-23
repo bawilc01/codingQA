@@ -1,29 +1,49 @@
 /*selector{ property: value;}
 who{ what: how;}*/
 
-/*Default Styling*/
+/* ================================= 
+  Base Element Styles
+==================================== */
 @import url ('https://fonts.googleapis.com/css?family=Thasadith:400,700');
 
 body {
 background: rgb(141, 156, 156);
 font-family: Thasadith, sans-serif;
 line-height: 1.6;
-color: black;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(58, 65, 56);
+ }
 
+ /* ================================= 
+  Base Layout Styles
+==================================== */
+ 
 #wrapper { 
     width: 70%;
     margin: 0 auto;
  }
  
 
+ /* ---- Header Styles ---- */
 .header {
     background: rgb(58, 65, 56);
     width: 100%;
-    margin: 0;
-    padding: 5px 5px;
-    text-align: center;
+	margin: 0;
+	padding: 10px;
+}
+
+.subheader {
+	background: rgb(58, 65, 56);
+    width: 100%;
+	font-size: 16px;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .header-home {
@@ -37,26 +57,8 @@ color: black;
     color: whitesmoke;
 }
 
-.footer {
-    background: rgb(58, 65, 56);
-    color: whitesmoke;
-    width: 100%;
-    margin-top: 0;
-    padding: 10px 10px;
-}
 
-a.dropdown-item {
-    justify-content: center;    
-    flex-wrap: wrap;
-    text-align: center;
-    text-decoration: none;
-    margin: 0;
-    padding: 5px; 
-    color: black;
-    padding: 5px;
-    margin: 5px;
-}
-
+/* ---- Navigation ---- */
 div.dropdown-menu.show {
     display: flex;
     justify-content: center;
@@ -70,15 +72,32 @@ div.dropdown-menu.show {
     text-align: center;
 }
 
-#content a {
+a.dropdown-item {
+    justify-content: center;    
+    flex-wrap: wrap;
+    text-align: center;
     text-decoration: none;
-    color: rgb(58, 65, 56);
- }
+    margin: 0;
+    padding: 5px; 
+    color: black;
+    padding: 5px;
+    margin: 5px;
 
-#content a:hover {
+}
+
+#sm-content a:hover {
     text-decoration: none;
     background: rgb(58, 65, 56);
     color: whitesmoke;
     padding: 10px;
     border-radius: 5px;
+}
+
+/*Footer Styling*/
+
+.footer {
+    background: rgb(58, 65, 56);
+    color: whitesmoke;
+    padding: 2em 0;
+	text-align: center;		
 }
