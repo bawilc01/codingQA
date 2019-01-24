@@ -6,6 +6,12 @@ who{ what: how;}*/
 ==================================== */
 @import url ('https://fonts.googleapis.com/css?family=Thasadith:400,700');
 
+* {
+
+    box-sizing: border-box;
+
+}
+
 body {
 background: rgb(141, 156, 156);
 font-family: Thasadith, sans-serif;
@@ -17,13 +23,24 @@ a {
     color: rgb(58, 65, 56);
  }
 
+ img {
+    max-width: 100%;
+    border-radius: 10px;
+ }
+
  /* ================================= 
   Base Layout Styles
 ==================================== */
- 
+
+.wrap {
+
+    min-height: calc(100vh - 121px);
+
+}
+
 #wrapper { 
-    width: 70%;
-    margin: 0 auto;
+    padding-left: 1em;
+    padding-right: 1em;
  }
  
 
@@ -59,30 +76,19 @@ a {
 
 
 /* ---- Navigation ---- */
+
+
+.nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    text-align: center;
+}
+
 div.dropdown-menu.show {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.nav-item {
-    margin-left: 15px;
-    margin-right: 15px;
-    padding: 5px;
-    text-align: center;
-}
-
-a.dropdown-item {
-    justify-content: center;    
-    flex-wrap: wrap;
-    text-align: center;
-    text-decoration: none;
-    margin: 0;
-    padding: 5px; 
-    color: black;
-    padding: 5px;
-    margin: 5px;
-
 }
 
 #sm-content a:hover {
@@ -93,6 +99,32 @@ a.dropdown-item {
     border-radius: 5px;
 }
 
+/*Portfolio Styling*/
+
+#gallery {
+    margin: o;
+    padding o;
+    list-style: none;
+    display: block;
+}
+
+#gallery li {
+    float: left;
+    margin: 3px;
+    width: 40%;
+}
+
+.photo-creds {
+    float: left;
+    display: inline-flex;
+}
+
+.photo-creds p {
+    padding: 5px;
+}
+
+
+
 /*Footer Styling*/
 
 .footer {
@@ -101,3 +133,20 @@ a.dropdown-item {
     padding: 2em 0;
 	text-align: center;		
 }
+
+/*Media Queries*/
+
+@media (min-width: 769px) {
+    #wrapper {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    }
+}
+
+@media (max-width: 769px) {
+.header, 
+.subheader {
+    text-align: center;
+}
+
