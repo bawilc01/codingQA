@@ -16,15 +16,20 @@
     <title>Oh, The Things I Could Make (Someday)</title>
   </head>
 
-<body>
-      <div class ="wrap">
-          <div>
-            <a class="header-home" href="index.html">
-            <h1 class="header">The Procrastinating Crafter</h1>
-              <h2 class ="subheader">Crafting Things Now Instead of Doing It Later</h2>
-          </a>
-        </div>
 
+  <!--Header Section-->
+  <body>
+      <div class="wrap"> <!--Wrap div for sticky footer-->
+
+      <header class="main-header">
+          <a href="index.html">
+          <h2 id="header-h2" class="title">Sewing Things Now Instead of Doing It Later</span>
+          <h1 id="header-h1">Sewcrastinator</h1></a>
+      
+      </header>
+      <div class="menu">
+
+    <!--Navigation Section-->
         <nav class ="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
 
           <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
@@ -41,12 +46,12 @@
               </li>
 
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#dropdown_target">Finished Projects
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#dropdown_target">Projects
                 <span class="caret"></span></a>
 
                 <div class="dropdown-menu" aria-labelledby="dropdown_target">
-                  <a class="dropdown-item" href="sewing.html">Sewing Projects</a>
-                  <a class="dropdown-item" href="furniture.html">Furniture Projects</a>
+                  <a class="dropdown-item" href="sewing.html">Sewing</a>
+                  <a class="dropdown-item" href="furniture.html">Furniture</a>
                 </div>
               </li>
 
@@ -60,36 +65,44 @@
 
             </ul>
           </div>
-
-        </nav>
-        <div id="wrapper">
-          <h1>Completed Sewing Projects</h1>
-            <section>
-              <ul id="gallery">
-                <!--<li>
-                  <img src="img/bag.jpg" alt="">
-                  <p>A basic tote bag.</p>
-                  </li>
-                <li>
-                    <img src="img/pillow.jpg" alt="">
-                    <p>An pillow case for 12 in. x 12 in. pillow.</p>
-                </li>
-                <li> 
-                    <img src="img/sweater.jpg" alt="">
-                    <p>Basic crewneck sweater.</p>
-                </li>
-                <li>
-                    <img src="img/scarf.jpg" alt="">
-                    <p>Knitted scarf.</p>
-                </li>-->
-              </ul>
-            </section>
         </div>
-      </div>
-      
-    <footer class="footer">
-        <p>Copyright 2016 | B. C.</p>
-    </footer>
+      </nav> 
 
-  </body>
+      <div class="container">
+
+          <h1>Sewing: Where I'm At</h1>
+    
+          <div class="sweater">
+            <img src="img/sweater.jpeg" alt="sweater">
+            <h3>Sewing Clothes</h3>
+            <p>
+              My goal is to sew garments. A few things I've sewn:
+            </p>
+            <ol>
+              <li id="sew">Bowl cozy and potholders.</li>
+              <li id="sew">Child's purse.</li>
+              <li id="sew">Pillow cases.</li>
+            </ol>	
+           </div>
+
+          <div class="tools">
+              <img src="img/tools.jpg" alt="tools">
+              <h3>My Focus</h3>
+               <p>
+                Things I'm still working at: 
+              </p>
+              <ol>
+                <li>Understanding thread tension.</li>
+                <li>Reading patterns.</li>
+                <li>What tools to use and when.</li>               
+              </ol>
+          </div> <!--end tools div-->
+        </div> <!--end container div-->
+      </div> <!--end wrap div-->
+        
+    
+        <footer class="footer group">
+          <p>Copyright 2016 | B. C.</p>
+        </footer>
+   </body>
 </html>

@@ -4,7 +4,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -15,16 +15,19 @@
 
     <title>Oh, The Things I Could Make (Someday)</title>
   </head>
+  <!--Header Section-->
+  <body>
+      <div class="wrap"> <!--Wrap div for sticky footer-->
 
-      <body>
-    <div class="wrap">
-        <div>
-            <a class="header-home" href="index.html">
-            <h1 class="header">The Procrastinating Crafter</h1>
-              <h2 class ="subheader">Crafting Things Now Instead of Doing It Later</h2>
-          </a>
-        </div>
+      <header class="main-header">
+          <a href="index.html">
+          <h2 id="header-h2" class="title">Sewing Now Instead of Doing It Later</span>
+          <h1 id="header-h1">Sewcrastinator</h1></a>
+      
+      </header>
+      <div class="menu">
 
+    <!--Navigation Section-->
         <nav class ="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
 
           <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
@@ -41,12 +44,12 @@
               </li>
 
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#dropdown_target">Finished Projects
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#dropdown_target">Projects
                 <span class="caret"></span></a>
 
                 <div class="dropdown-menu" aria-labelledby="dropdown_target">
-                  <a class="dropdown-item" href="sewing.html">Sewing Projects</a>
-                  <a class="dropdown-item" href="furniture.html">Furniture Projects</a>
+                  <a class="dropdown-item" href="sewing.html">Sewing</a>
+                  <a class="dropdown-item" href="furniture.html">Furniture</a>
                 </div>
               </li>
 
@@ -60,10 +63,11 @@
 
             </ul>
           </div>
+        </div>
+      </nav> 
+      
 
-        </nav>
-        
-        <div id="wrapper">
+      <div class="container">
     
           <h1>About</h1>
           <p>
@@ -74,12 +78,12 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
 
-      </div>
-    </div>
+        </div>
+      </div> <!--End of Wrap div-->
 
-    <footer class="footer">
-        <p>Copyright 2016 | B. C.</p>
-    </footer>
-
+<!--Footer Section-->
+      <footer class="footer group">
+          <p>Copyright 2016 | B. C.</p>
+      </footer>
   </body>
 </html>
