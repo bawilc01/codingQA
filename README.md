@@ -1,3 +1,4 @@
-# procrastinatorCraftinator
-blog and portfolio for tech and craft projects
-https://bawilc01.github.io/procrastinatorCraftinator/
+# codingQA
+blog and portfolio for QA work and struggles
+just open from index.html
+https://bawilc01.github.io/codingQA/
